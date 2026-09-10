@@ -62,7 +62,7 @@ Headers and CMake files for developing applications that use %{name}.
 
 %files
 %{_qtdir}/qml/org/kde/union
-%{_qtdir}/plugins/styles/libUnionWidgetsStyle.so
+%{_qtdir}/plugins/styles/UnionWidgetsStyle.so
 %{_qtdir}/plugins/kf6/kirigami/platform/org.kde.union.so
 %{_qtdir}/plugins/union
 %{_datadir}/kstyle/themes/union.themerc
@@ -72,8 +72,12 @@ Headers and CMake files for developing applications that use %{name}.
 
 %files -n %{libname}
 %{_libdir}/libUnion.so.*
+%{_libdir}/libUnionQuickStyle.so.*
+%{_libdir}/libUnionQuickImpl.so.*
 
 %files -n %{develname}
 %{_includedir}/union
 %{_libdir}/libUnion.so
+%{_libdir}/libUnionQuickStyle.so
+%{_libdir}/libUnionQuickImpl.so
 %{_libdir}/cmake/Union
