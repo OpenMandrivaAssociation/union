@@ -62,6 +62,7 @@ Headers and CMake files for developing applications that use %{name}.
 
 %files
 %{_qtdir}/qml/org/kde/union
+%{_qtdir}/qml/org/kde/kirigami/styles/org.kde.union
 %{_qtdir}/plugins/styles/UnionWidgetsStyle.so
 %{_qtdir}/plugins/kf6/kirigami/platform/org.kde.union.so
 %{_qtdir}/plugins/union
