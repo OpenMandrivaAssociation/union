@@ -78,6 +78,4 @@ Headers and CMake files for developing applications that use %{name}.
 %files -n %{develname}
 %{_includedir}/union
 %{_libdir}/libUnion.so
-%{_libdir}/libUnionQuickStyle.so
-%{_libdir}/libUnionQuickImpl.so
 %{_libdir}/cmake/Union
