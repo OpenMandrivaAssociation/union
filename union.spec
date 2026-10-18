@@ -5,7 +5,7 @@
 
 Summary:	Unified style engine for Plasma
 Name:		union
-Version:	6.7.5
+Version:	6.8.0
 Release:	1
 License:	LGPLv2+
 Group:		Graphical desktop/KDE
@@ -28,7 +28,7 @@ BuildRequires:	cmake(KF6ColorScheme)
 BuildRequires:	cmake(KF6Kirigami)
 BuildRequires:	cmake(KF6KirigamiPlatform)
 BuildRequires:	cmake(Plasma)
-BuildRequires:	cmake(cxx-rust-cssparser)
+BuildRequires:	cmake(cxx-rust-cssparser) >= 1.1.0
 
 BuildSystem:	cmake
 BuildOption:	-DBUILD_TESTING:BOOL=OFF
