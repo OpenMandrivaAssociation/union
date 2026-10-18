@@ -29,6 +29,7 @@ BuildRequires:	cmake(KF6Kirigami)
 BuildRequires:	cmake(KF6KirigamiPlatform)
 BuildRequires:	cmake(Plasma)
 BuildRequires:	cmake(cxx-rust-cssparser) >= 1.1.0
+BuildRequires:	pkgconfig(zlib)
 
 BuildSystem:	cmake
 BuildOption:	-DBUILD_TESTING:BOOL=OFF
@@ -70,6 +71,7 @@ Headers and CMake files for developing applications that use %{name}.
 %{_datadir}/union
 %{_datadir}/qlogging-categories6/union.categories
 %{_bindir}/union-ruleinspector
+%{_bindir}/union-styletool
 
 %files -n %{libname}
 %{_libdir}/libUnion.so.*
